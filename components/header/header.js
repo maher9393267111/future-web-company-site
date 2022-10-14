@@ -17,7 +17,7 @@ export default function Header(props) {
         href="https://maikon.biz/wp-content/uploads/2020/06/MAIKON.BIZ-favicon-70px.png"
       ></link>
 
-      <title>{props.title}</title>
+      <title>{props.title || ' web-Future'}</title>
     </Head>
   );
 }

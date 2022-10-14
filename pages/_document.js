@@ -8,14 +8,16 @@ export default function Document() {
       <Head>
 
 
-      <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+ 
+      <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+	
+
+	<link rel="stylesheet" href="/css/bootstrap.css"/>
+	<link rel="stylesheet" href="/css/ionicons.min.css"/>
+	<link rel="stylesheet" href="/css/magnific-popup.css"/>
+	<link rel="stylesheet" href="/css/style.css"/>
 
 
-<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="/css/ionicons.min.css" rel="stylesheet"/>
-<link href="/css/main.css" rel="stylesheet"/>
-<link href="/css/style.css" rel="stylesheet"/>
-<link href="/css/responsive.css" rel="stylesheet"/>
 
 
 {/* <script src="/js/modernizr.js"></script> */}
