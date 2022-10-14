@@ -9,7 +9,9 @@ const Intro = () => {
 				<div className="col-md-6 col-sm-12 col-xs-12">
 					<div className="content">
 						<h2><span className="color-highlight">Build</span> Your</h2>
-						<h2>Website <span className="color-highlight">with Us</span></h2>
+						<h2>Website <span className="color-highlight">with Us
+                        {/* <i className="uil uil-comments"/> */}
+                        </span></h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dicta impedit iste!</p>
 						<ul>
 							<li><a href="" className="button">Get Started</a></li>
