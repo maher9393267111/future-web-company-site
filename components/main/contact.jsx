@@ -9,7 +9,7 @@ const Contact = () => {
 				<h3>Lets Join Us</h3>
 			</div>
 			<div className="box-content">
-				<div clasNames="row">
+				<div className="row">
 					<div className="col-md-4 col-sm-12">
 						<div className="content">
 							<h5>Address</h5>
