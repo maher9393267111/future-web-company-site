@@ -34,7 +34,7 @@ const Services = () => {
 					<div className="content">
 						<div className="serv-icon">
 							<i className="icon ion-ios-desktop"></i>
-							<span className="clone-icon"><i class="icon ion-ios-desktop"></i></span>
+							<span className="clone-icon"><i className="icon ion-ios-desktop"></i></span>
 						</div>
 						<h5>Web Development</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>

@@ -27,7 +27,7 @@ function HomePage(props) {
 <div>
 
 	{/* <!-- loader --> */}
-	<div class="fakeLoader"></div>
+	<div className="fakeLoader"></div>
 	{/* <!-- end loader -->
 
 	<!-- navbar --> */}

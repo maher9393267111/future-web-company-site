@@ -9,7 +9,7 @@ const Words = () => {
 				<div className="row">
 					<div className="col-md-8 col-sm-12 align-self-center">
 						<div className="words-wrap">
-							<h4>Let's work together on your</h4>
+							<h4>Lets work together on your</h4>
 							<h4>best project</h4>
 						</div>
 					</div>
