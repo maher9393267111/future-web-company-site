@@ -29,7 +29,7 @@ const Intro = () => {
 <video
 
 className=' video-intro'
-loading="lazy" muted="muted" src="https://cdnl.iconscout.com/lottie/premium/thumb/content-builder-6576548-5445944.mp4" type="video/mp4" autoplay="autoplay" loop="loop"></video>
+loading="lazy" muted="muted" src="https://cdnl.iconscout.com/lottie/premium/thumb/content-builder-6576548-5445944.mp4" type="video/mp4" autoPlay="autoPlay" loop="loop"></video>
 
 
 					</div>
