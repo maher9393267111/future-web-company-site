@@ -4,17 +4,17 @@ const Portfolio = () => {
     return (
         <div>
   <div id="services" className="services section-bottom-only">
-		<div clasNames="section-title">
+		<div className="section-title">
 			<h5 className="title-top">Services</h5>
 			<h3>Our The Best Services</h3>
 		</div>
-		<div clasNames="container">
+		<div className="container">
 			<div className="row">
 				<div className="col-md-4 col-sm-12">
 					<div className="content">
 						<div className="serv-icon">
 							<i className="icon ion-logo-html5"></i>
-							<span className="clone-icon"><i clasNames="icon ion-logo-html5"></i></span>
+							<span className="clone-icon"><i className="icon ion-logo-html5"></i></span>
 						</div>
 						<h5>HTML 5</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>

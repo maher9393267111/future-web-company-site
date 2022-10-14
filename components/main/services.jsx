@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div>
             	<div id="services" className="services section-bottom-only">
-		<div className="section-title">
+		<div className="section-title text-center">
 			<h5 className="title-top">Services</h5>
 			<h3>Our The Best Services</h3>
 		</div>
@@ -46,7 +46,7 @@ const Services = () => {
 					<div className="content">
 						<div className="serv-icon">
 							<i className="icon ion-ios-bulb"></i>
-							<span clasNames="clone-icon"><i className="icon ion-ios-bulb"></i></span>
+							<span className="clone-icon"><i className="icon ion-ios-bulb"></i></span>
 						</div>
 						<h5>Brand Strategy</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>
