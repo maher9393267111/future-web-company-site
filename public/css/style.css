@@ -247,6 +247,17 @@ ul li {
     width: 100%;
 }
 
+.home-intro .content-image video {
+    width: 100%;
+}
+
+.video-intro {
+
+width: 100%;
+transform: translateY(-180px);
+
+}
+
 .home-intro ul li {
     display: inline-block;
 }

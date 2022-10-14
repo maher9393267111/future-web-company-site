@@ -8,7 +8,8 @@ const AboutUs = () => {
 			<div className="row">
 				<div className="col-sm-12 col-md-6 col-xs-12">
 					<div className="content-image">
-						<img src="images/about-img.jpg" alt=""/>
+						<img src="https://cdni.iconscout.com/illustration/premium/thumb/web-designer-4439348-3726919.png" alt=""/>
+					
 					</div>
 				</div>
 				<div className="col-sm-12 col-md-6 col-xs-12">

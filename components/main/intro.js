@@ -19,7 +19,19 @@ const Intro = () => {
 				</div>
 				<div className="col-md-6 col-sm-12 col-xs-12">
 					<div className="content-image">
-						<img src="images/header-img.png" alt=""/>
+						{/* <img src="images/header-img.png" alt=""/> */}
+
+                        {/* <video
+                        className='video-intro'
+                        src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/content-builder-6576548-5445944.mp4" autoplay="autoplay" muted="muted" loop="loop" playsinline="" type="video/mp4"></video> */}
+
+
+<video
+
+className=' video-intro'
+loading="lazy" muted="muted" src="https://cdnl.iconscout.com/lottie/premium/thumb/content-builder-6576548-5445944.mp4" type="video/mp4" autoplay="autoplay" loop="loop"></video>
+
+
 					</div>
 				</div>
 			</div>
