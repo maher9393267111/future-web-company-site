@@ -1,4 +1,5 @@
 import React from 'react';
+import { projects } from '../../utils/data';
 
 const Portfolio = () => {
     return (
@@ -9,7 +10,7 @@ const Portfolio = () => {
 				<h5 className="title-top">Work</h5>
 				<h3>Our Work Portfolio</h3>
 			</div>
-			<div className="portfolio-filter-menu">
+			{/* <div className="portfolio-filter-menu">
 				<ul>
 					<li data-filter="all" class="active">
 						<span>All</span>
@@ -24,20 +25,31 @@ const Portfolio = () => {
 						<span>Branding</span>
 					</li>
 				</ul>
-			</div>
+			</div> */}
+
+			{/* ----------- CARDS MAP ----------- */}
 			<div className="row no-gutters filter-container">
-				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3">
+
+
+            {/* ----------- Single Project Cart Start ------ */}
+
+
+ {projects?.map((project,index)=>{
+
+return (
+
+	<div key={index} className="col-md-4 col-sm-6  mb-2 col-xs-12 filtr-item" data-category="3">
 					<div className="content-image">
 						<a
 						// href="images/portfolio1.jpg" 
-						href='https://validthemes.live/themeforest/maxa/shop.html#'
+						href={project?.url}
 						
 						// className="portfolio-popup"   // popup light image class
 						>
-							<img src="images/portfolio1.jpg" alt="portfolio-image"/>
+							<img className='project-img' src={project?.image} alt="portfolio-image"/>
 							<div className="image-overlay"></div>
 							<div className="image-caption">
-								<h4>Color Wall</h4>
+								<h4>{project?.name}</h4>
 								<span>Branding 
 
 								
@@ -47,72 +59,17 @@ const Portfolio = () => {
 						</a>
 					</div>
 				</div>
-				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1">
-					<div className="content-image">
-						<a 
 
-						href=''
 
-						// href="images/portfolio2.jpg" 
-						// 	className="portfolio-popup"
-						>
-							<img src="images/portfolio2.jpg" alt="portfolio-image"/>
-							<div className="image-overlay"></div>
-							<div className="image-caption">
-								<h4>Smooth Flower</h4>
-								<span>Branding</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="2">
-					<div class="content-image">
-						<a href="images/portfolio3.jpg" class="portfolio-popup">
-							<img src="images/portfolio3.jpg" alt="portfolio-image"/>
-							<div class="image-overlay"></div>
-							<div class="image-caption">
-								<h4>Vintage Building</h4>
-								<span>Branding</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3">
-					<div className="content-image">
-						<a href="images/portfolio4.jpg" className="portfolio-popup">
-							<img src="images/portfolio4.jpg" alt="portfolio-image"/>
-							<div className="image-overlay"></div>
-							<div className="image-caption">
-								<h4>Theo Digital</h4>
-								<span>Branding</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="2">
-					<div className="content-image">
-						<a href="images/portfolio5.jpg" class="portfolio-popup">
-							<img src="images/portfolio5.jpg" alt="portfolio-image"/>
-							<div className="image-overlay"></div>
-							<div className="image-caption">
-								<h4>Painted Wall</h4>
-								<span>Branding</span>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1">
-					<div className="content-image">
-						<a href="images/portfolio6.jpg" className="portfolio-popup">
-							<img src="images/portfolio6.jpg" alt="portfolio-image"/>
-							<div className="image-overlay"></div>
-							<div className="image-caption">
-								<h4>Blue Lolipop</h4>
-								<span>Branding</span>
-							</div>
-						</a>
-					</div>
-				</div>
+
+)
+
+
+ })}
+
+
+			
+			
 			</div>
 		</div>
 	</div>
