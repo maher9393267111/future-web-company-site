@@ -6,6 +6,7 @@ const Contact = () => {
 
 	const form = useRef();
 
+	
 	const sendEmail = (e) => {
 	  e.preventDefault();
   
