@@ -14,14 +14,14 @@ const AboutUs = () => {
 				</div>
 				<div className="col-sm-12 col-md-6 col-xs-12">
 					<div className="content">
-						<h3>Why Choose Us?</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aliquid expedita repellendus a officiis ullam quas, dignissimos iure! Molestiae, asperiores.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt debitis ullam temporibus laudantium, repellendus ipsum dicta velit autem tenetur non quisquam ad cum laboriosam vero, ab voluptatem fugiat! Culpa, quam!</p>
-						<ul>
-							<li><span className="circle-list"></span>Complete features</li>
+						<h3 className=' text-center'>لماذا نحن</h3>
+						<p className='text-end'>فريق عمل متكامل يعمل على تطوير خدماتنا المقدمة لك لضمان سهولة الاستخدام وتوفير جميع الخدمات المرتبطة بتحسين عملية تواصلك مع عملائك.</p>
+						<p className='text-end'>نضمن لك الجودة العالية و الخدمة الموثوقة وبأسعار مناسبة ونقدم لك خدمة الدعم الفني على مدار الساعة وفي كافة أيام الأسبوع.</p>
+						{/* <ul>
+							<li><span className="circle-list"></span>eatures</li>
 							<li><span className="circle-list"></span>Lorem ipsum dolor sit</li>
 							<li><span className="circle-list"></span>dolore architecto officiis</li>
-						</ul>
+						</ul> */}
 					</div>
 				</div>
 			</div>

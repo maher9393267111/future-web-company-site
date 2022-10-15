@@ -7,15 +7,15 @@ const Intro = () => {
 		<div className="container">
 			<div className="row">
 				<div className="col-md-6 col-sm-12 col-xs-12">
-					<div className="content">
-						<h2><span className="color-highlight">Build</span> Your</h2>
-						<h2>Website <span className="color-highlight">with Us
+					<div className="content  text-right">
+						<h4><span className="color-highlight">صمم موقعك</span> الخاص</h4>
+						<h4>الان <span className="color-highlight">معنى  بأفضل الأسعار و بأقصى سرعة
                         {/* <i className="uil uil-comments"/> */}
-                        </span></h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dicta impedit iste!</p>
+                        </span></h4>
+						{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dicta impedit iste!</p> */}
 						<ul>
-							<li><a href="" className="button">Get Started</a></li>
-							<li><a href="" className="button button-secondary">Free Trial</a></li>
+							<li><a href="" className="   button">Get Started</a></li>
+							{/* <li><a href="" className="button button-secondary">Free Trial</a></li> */}
 						</ul>
 					</div>
 				</div>

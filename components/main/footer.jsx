@@ -9,7 +9,7 @@ const Footer = () => {
 				<div className="col-md-3 col-sm-6 col-xs-12">
 					<div className="content">
 						<div className="brand"><img src="images/logo.png" alt=""/></div>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, accusamus.</p>
+						<p className=' footer-text'> ” تسويق الكتروني وخدمات في مجال تكنولوجيا المعلومات والانترنت جاءت لتكون إضافة إبداعية في العالم الرقمي.</p>
 					</div>
 				</div>
 				<div className="col-md-3 col-sm-6 col-xs-12">
@@ -26,7 +26,7 @@ const Footer = () => {
 					<div className="content">
 						<h5>Support</h5>
 						<ul>
-							<li><a href=""><i className="icon ion-ios-headset"></i> support@example.com</a></li>
+							<li><a href=""><i className="icon ion-ios-headset"></i> futureWeb@gmail.com</a></li>
 							<li><a href=""><i className="icon ion-ios-call"></i> +61 3 8376 6284
 							</a></li>
 							<li><a href=""><i className="icon ion-ios-settings"></i> Services</a></li>

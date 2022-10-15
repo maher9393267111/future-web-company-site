@@ -12,22 +12,22 @@ const Navbar = () => {
 			<div className="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul className="navbar-nav ml-auto">
 					<li className="nav-item">
-						<a className="nav-link" href="#home">Home</a>
+						<a className="nav-link" href="#home">الرئيسية</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#about">About</a>
+						<a className="nav-link" href="#about">لماذا نحن</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#portfolio">Portfolio</a>
+						<a className="nav-link" href="#portfolio">من مشاريعنا</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#services">Services</a>
+						<a className="nav-link" href="#services">خدماتنا</a>
 					</li>
-					<li className="nav-item">
+					{/* <li className="nav-item">
 						<a className="nav-link" href="#news">News</a>
-					</li>
+					</li> */}
 					<li className="nav-item">
-						<a className="nav-link" href="#contact">Contact us</a>
+						<a className="nav-link" href="#contact">تواصل معنا</a>
 					</li>
 				</ul>
 			</div>

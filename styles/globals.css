@@ -1,0 +1,25 @@
+
+.text-end {
+    text-align: end;
+    font-size:27px;
+}
+
+.footer-text:hover {
+    transition: all 1s ;
+    color: aliceblue;
+
+}
+
+.nav-link {
+
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+.text-lg {
+
+
+    font-weight: bold;
+    font-size: 33px;
+    margin-bottom: 30px;
+}

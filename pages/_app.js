@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import {useEffect,useState} from 'react'
+import '../styles/slider.scss'
 
 function App({ Component, pageProps }) {
 

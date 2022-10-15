@@ -13,6 +13,8 @@ import News from "../components/main/news";
 import Words from "../components/main/words";
 import Contact from "../components/main/contact";
 import Footer from "../components/main/footer";
+import Testimonial from '../components/main/slider'
+
 
 function HomePage(props) {
 
@@ -26,47 +28,53 @@ function HomePage(props) {
 
 <div>
 
-	{/* <!-- loader --> */}
+	
 	<div className="fakeLoader"></div>
-	{/* <!-- end loader -->
+	
 
-	<!-- navbar --> */}
+	
+
+
 <Navbar/>
-	{/* <!-- end navbar -->
 
-	<!-- home intro --> */}
 <Intro/>
-	{/* <!-- end home intro -->
 
-	<!-- about us --> */}
+
+	
 	<AboutUs/>
-	{/* <!-- end about us -->
 
-	<!-- process work --> */}
+
+	
 	<Work/>
-	{/* <!-- end process work -->
+	
 
-	<!-- portfolio --> */}
+
 	<Portfolio/>
-	{/* <!-- end portfolio -->
+	
 
-	<!-- services --> */}
+	
 <Services/>
-	{/* <!-- end services -->
 
-	<!-- words --> */}
+
+
+ 
+
+
+
+
 	<Words/>
-	{/* <!-- end words -->
+	
+	
+<Testimonial/>
 
-	<!-- news --> */}
-	<News/>
-	{/* <!-- end news -->
+	{/* <News/> */}
 
-	<!-- contact --> */}
+
+
 <Contact/>
-	{/* <!-- end contact -->
+	
 
-	<!-- footer --> */}
+
 <Footer/>
 
 </div>

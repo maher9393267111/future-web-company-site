@@ -153,7 +153,7 @@ ul li {
     text-align: center;
 }
 
-.section-title .title-top {
+.section-title . {
     margin-bottom: 10px;
     text-transform: uppercase;
     color: #415678;
@@ -230,16 +230,18 @@ ul li {
     padding: 175px 0;
 }
 
-.home-intro .content h2 {
-    font-size: 64px;
+.home-intro .content h4 {
+    font-size: 38px;
     font-weight: 800;
 }
 
-.home-intro .content h2 .color-highlight {
+.home-intro .content h4 .color-highlight {
     color: #415678;
 }
 
-.home-intro .content h2:nth-child(2) {
+
+
+.home-intro .content h4:nth-child(2) {
     margin-bottom: 30px;
 }
 
@@ -494,7 +496,7 @@ transform: translateY(-180px);
     top: 7px;
     left: -12px;
     right: 0;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 /* words */

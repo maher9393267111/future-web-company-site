@@ -6,7 +6,7 @@ const Contact = () => {
 
 	const form = useRef();
 
-	
+
 	const sendEmail = (e) => {
 	  e.preventDefault();
   
@@ -23,20 +23,20 @@ const Contact = () => {
     return (
         <div id="contact" className="contact section-bottom-only">
 		<div className="container">
-			<div className="section-title">
-				<h5 className="title-top">Contact Us</h5>
-				<h3>Lets Join Us</h3>
+			<div className="">
+				<h5 className="title-top text-center  text-lg">تواصل معنا</h5>
+				<h3></h3>
 			</div>
 			<div className="box-content">
 				<div className="row">
 					<div className="col-md-4 col-sm-12">
 						<div className="content">
-							<h5>Address</h5>
-							<p>121 King Street, Melbourne Victoria 3000 Australia</p>
-							<h5>Phone</h5>
-							<p>+61 3 8376 6284</p>
-							<h5>Email</h5>
-							<p>support@example.com</p>
+							<h5>العنوان</h5>
+							<p>تركيا , اسطنبول</p>
+							{/* <h5>Phone</h5>
+							<p>+61 3 8376 6284</p> */}
+							<h5>الإيميل</h5>
+							<p>webFuture@gmail.com</p>
 						</div>
 					</div>
 					<div className="col-md-8 col-sm-12">
@@ -72,7 +72,7 @@ const Contact = () => {
 										</div>
 									</div>
 								</div>
-								<button className="button" type="submit" id="submit" name="submit">Send Message</button>
+								<button className="button" type="submit" id="submit" name="submit">أرسل رسالة</button>
 							</form>
 						</div>
 					</div>

@@ -7,8 +7,8 @@ const Portfolio = () => {
   	<div id="portfolio" className="portfolio section-bottom-only">
 		<div className="container">
 			<div className="section-title">
-				<h5 className="title-top">Work</h5>
-				<h3>Our Work Portfolio</h3>
+				{/* <h5 className="title-top">Work</h5> */}
+				<h3>من أعمالنا</h3>
 			</div>
 			{/* <div className="portfolio-filter-menu">
 				<ul>
