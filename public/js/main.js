@@ -47,7 +47,7 @@ $(function() {
 
     });
 
-
+// filter--->>>  profile carts [ All , desingers, web , develop]
     // porfolio filterizr
     $('.filter-container').imagesLoaded( function() {
         var filterizr = $('.filter-container').filterizr();

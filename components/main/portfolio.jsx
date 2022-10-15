@@ -3,73 +3,114 @@ import React from 'react';
 const Portfolio = () => {
     return (
         <div>
-  <div id="services" className="services section-bottom-only">
-		<div className="section-title">
-			<h5 className="title-top">Services</h5>
-			<h3>Our The Best Services</h3>
-		</div>
+  	<div id="portfolio" className="portfolio section-bottom-only">
 		<div className="container">
-			<div className="row">
-				<div className="col-md-4 col-sm-12">
-					<div className="content">
-						<div className="serv-icon">
-							<i className="icon ion-logo-html5"></i>
-							<span className="clone-icon"><i className="icon ion-logo-html5"></i></span>
-						</div>
-						<h5>HTML 5</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>
-					</div>
-				</div>
-				<div className="col-md-4 col-sm-12">
-					<div className="content">
-						<div className="serv-icon">
-							<i className="icon ion-ios-phone-portrait"></i>
-							<span className="clone-icon"><i className="icon ion-ios-phone-portrait"></i></span>
-						</div>
-						<h5>Mobile Apps</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>
-					</div>
-				</div>
-				<div className="col-md-4 col-sm-12">
-					<div className="content">
-						<div className="serv-icon">
-							<i className="icon ion-ios-desktop"></i>
-							<span className="clone-icon"><i className="icon ion-ios-desktop"></i></span>
-						</div>
-						<h5>Web Development</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>
-					</div>
-				</div>
+			<div className="section-title">
+				<h5 className="title-top">Work</h5>
+				<h3>Our Work Portfolio</h3>
 			</div>
-			<div className="row">
-				<div className="col-md-4 col-sm-12">
-					<div className="content">
-						<div className="serv-icon">
-							<i className="icon ion-ios-bulb"></i>
-							<span className="clone-icon"><i className="icon ion-ios-bulb"></i></span>
-						</div>
-						<h5>Brand Strategy</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>
+			<div className="portfolio-filter-menu">
+				<ul>
+					<li data-filter="all" class="active">
+						<span>All</span>
+					</li>
+					<li data-filter="1">
+						<span>Web Design</span>
+					</li>
+					<li data-filter="2">
+						<span>Marketing</span>
+					</li>
+					<li data-filter="3">
+						<span>Branding</span>
+					</li>
+				</ul>
+			</div>
+			<div className="row no-gutters filter-container">
+				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3">
+					<div className="content-image">
+						<a
+						// href="images/portfolio1.jpg" 
+						href='https://validthemes.live/themeforest/maxa/shop.html#'
+						
+						// className="portfolio-popup"   // popup light image class
+						>
+							<img src="images/portfolio1.jpg" alt="portfolio-image"/>
+							<div className="image-overlay"></div>
+							<div className="image-caption">
+								<h4>Color Wall</h4>
+								<span>Branding 
+
+								
+								</span>
+
+							</div>
+						</a>
 					</div>
 				</div>
-				<div className="col-md-4 col-sm-12">
-					<div className="content">
-						<div className="serv-icon">
-							<i className="icon ion-ios-paper"></i>
-							<span className="clone-icon"><i className="icon ion-ios-paper"></i></span>
-						</div>
-						<h5>Branding</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>
+				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1">
+					<div className="content-image">
+						<a 
+
+						href=''
+
+						// href="images/portfolio2.jpg" 
+						// 	className="portfolio-popup"
+						>
+							<img src="images/portfolio2.jpg" alt="portfolio-image"/>
+							<div className="image-overlay"></div>
+							<div className="image-caption">
+								<h4>Smooth Flower</h4>
+								<span>Branding</span>
+							</div>
+						</a>
 					</div>
 				</div>
-				<div className="col-md-4 col-sm-12">
-					<div className="content">
-						<div className="serv-icon">
-							<i className="icon ion-logo-wordpress"></i>
-							<span className="clone-icon"><i className="icon ion-logo-wordpress"></i></span>
-						</div>
-						<h5>Wordpress</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>
+				<div class="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="2">
+					<div class="content-image">
+						<a href="images/portfolio3.jpg" class="portfolio-popup">
+							<img src="images/portfolio3.jpg" alt="portfolio-image"/>
+							<div class="image-overlay"></div>
+							<div class="image-caption">
+								<h4>Vintage Building</h4>
+								<span>Branding</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="3">
+					<div className="content-image">
+						<a href="images/portfolio4.jpg" className="portfolio-popup">
+							<img src="images/portfolio4.jpg" alt="portfolio-image"/>
+							<div className="image-overlay"></div>
+							<div className="image-caption">
+								<h4>Theo Digital</h4>
+								<span>Branding</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="2">
+					<div className="content-image">
+						<a href="images/portfolio5.jpg" class="portfolio-popup">
+							<img src="images/portfolio5.jpg" alt="portfolio-image"/>
+							<div className="image-overlay"></div>
+							<div className="image-caption">
+								<h4>Painted Wall</h4>
+								<span>Branding</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div className="col-md-4 col-sm-6 col-xs-12 filtr-item" data-category="1">
+					<div className="content-image">
+						<a href="images/portfolio6.jpg" className="portfolio-popup">
+							<img src="images/portfolio6.jpg" alt="portfolio-image"/>
+							<div className="image-overlay"></div>
+							<div className="image-caption">
+								<h4>Blue Lolipop</h4>
+								<span>Branding</span>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>

@@ -24,7 +24,9 @@ const Services = () => {
 					<div className="content">
 						<div className="serv-icon">
 							<i className="icon ion-ios-phone-portrait"></i>
-							<span className="clone-icon"><i className="icon ion-ios-phone-portrait"></i></span>
+							
+							<span className="clone-icon">
+								<i className="icon ion-ios-phone-portrait"></i></span>
 						</div>
 						<h5>Mobile Apps</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p>

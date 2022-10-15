@@ -8,7 +8,7 @@ import Intro from "../components/main/intro";
 import AboutUs from "../components/main/aboutUs";
 import Work from "../components/main/Work";
 import Portfolio from "../components/main/portfolio";
-import Services from '../components/main/portfolio'
+import Services from '../components/main/services'
 import News from "../components/main/news";
 import Words from "../components/main/words";
 import Contact from "../components/main/contact";
