@@ -19,6 +19,7 @@
     }
   },
   "dependencies": {
+    "@emailjs/browser": "^3.7.0",
     "@prisma/client": "^3.14.0",
     "@types/react-router-dom": "^5.3.3",
     "assert": "^2.0.0",
