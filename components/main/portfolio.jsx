@@ -50,7 +50,7 @@ return (
 							<div className="image-overlay"></div>
 							<div className="image-caption">
 								<h4>{project?.name}</h4>
-								<span>Branding 
+								<span>{project?.type}
 
 								
 								</span>

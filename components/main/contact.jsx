@@ -1,6 +1,24 @@
-import React from 'react';
+import React , {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+
+	const form = useRef();
+
+	const sendEmail = (e) => {
+	  e.preventDefault();
+  
+	  emailjs.sendForm('service_i1jcckw', 'template_vjvp4qq', form.current, 'Wp9cGzuiKbDFuuVXl')
+		.then((result) => {
+			console.log(result.text);
+		}, (error) => {
+			console.log( 'error when send message ---->>>',error.text);
+		});
+	};
+
+
+
     return (
         <div id="contact" className="contact section-bottom-only">
 		<div className="container">
@@ -22,30 +40,34 @@ const Contact = () => {
 					</div>
 					<div className="col-md-8 col-sm-12">
 						<div className="content-right">
-							<form action="contact-form.php" className="contact-form" id="contact-form" method="post">
+							<form 
+							ref={form} onSubmit={sendEmail}
+							className="contact-form" id="contact-form" method="post">
 								<div className="row">
 									<div className="col">
 										<div id="first-name-field">
-											<input type="text" placeholder="Name" name="form-name"/>
+											<input type="text" placeholder="Name" name="from"/>
 										</div>
 									</div>
 									<div className="col">
 										<div id="email-field">
-											<input type="email" placeholder="Email Address" name="form-email"/>
+											<input type="email" placeholder="Email Address" name="email"/>
 										</div>
 									</div>
 								</div>
 								<div className="row">
 									<div className="col">
 										<div id="subject-field">
-											<input type="text" placeholder="Subject" name="form-subject"/>
+											<input
+											  name="subject"
+											 type="text" placeholder="Subject" />
 										</div>
 									</div>
 								</div>
 								<div className="row">
 									<div className="col">
 										<div id="message-field">
-											<textarea cols="30" rows="5" id="form-message" name="form-message" placeholder="Message"></textarea>
+											<textarea cols="30" rows="5" id="form-message" name="message" placeholder="Message"></textarea>
 										</div>
 									</div>
 								</div>
