@@ -28,7 +28,7 @@ const Portfolio = () => {
 			</div> */}
 
 			{/* ----------- CARDS MAP ----------- */}
-			<div className="row no-gutters filter-container">
+			<div className="row  overflow-hidden no-gutters filter-container">
 
 
             {/* ----------- Single Project Cart Start ------ */}
@@ -38,8 +38,8 @@ const Portfolio = () => {
 
 return (
 
-	<div key={index} className="col-md-4 col-sm-6  mb-2 col-xs-12 filtr-item" data-category="3">
-					<div className="content-image">
+	<div key={index} className="col-md-12 col-lg-6 col-sm-12   col-xs-12    mt-5  mb-5" data-category="3">
+					<div className="content-image  w-75">
 						<a
 						// href="images/portfolio1.jpg" 
 						href={project?.url}

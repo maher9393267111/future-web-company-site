@@ -23,3 +23,13 @@
     font-size: 33px;
     margin-bottom: 30px;
 }
+
+
+
+.brand-image {
+
+    width: 55px !important;
+    object-fit: cover !important;
+    
+    }
+    

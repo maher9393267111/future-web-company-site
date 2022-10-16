@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
 	<nav className="navbar navbar-expand-md navbar-light fixed-top">
 		<div className="container">
-			<a href="index.html" className="navbar-brand"><img src="images/logo.png" alt=""/></a>
+			<a href="index.html" className="navbar-brand"><img src="images/logo/ORGINAL1.png" alt=""/></a>
 			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<i className="icon ion-ios-menu"></i>
 			</button>

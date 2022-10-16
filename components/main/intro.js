@@ -37,6 +37,12 @@ loading="lazy" muted="muted" src="https://cdnl.iconscout.com/lottie/premium/thum
 					</div>
 				</div>
 			</div>
+
+
+{/* <div className=' video-container'>
+<video className=' video-class' loading="lazy" muted="muted" src="https://cdnl.iconscout.com/lottie/premium/thumb/design-optimize-in-web-and-mobile-6113555-5044214.mp4" type="video/mp4" autoPlay="autoPlay" loop="loop"></video>
+</div> */}
+
 		</div>
 	</div>
         </div>
