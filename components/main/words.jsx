@@ -17,7 +17,7 @@ const Words = () => {
 					</div>
 					<div className="col-md-4 col-sm-12 align-self-center">
 						<div className="button-wrap">
-							<button className="button">تواصل معنى</button>
+							<button className="button">تواصل معنا </button>
 						</div>
 					</div>
 				</div>

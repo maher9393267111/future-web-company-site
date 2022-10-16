@@ -74,15 +74,15 @@ const Services = () => {
 				<div className="col-md-4 col-sm-12">
 					<div className="content">
 						<div className="serv-icon">
-							<i className="icon ion-logo-wordpress"></i>
+							<i className="icon ion-logo-nodejs"></i>
 							<span className="clone-icon">
 
-								<i className="icon ion-logo-wordpress"></i>
+								<i className="icon  ion-"></i>
 
-								 <i className="icon    ion-md-e"></i>
+								 <i className="icon  logo-nodejs"></i>
 								</span>
 						</div>
-						<h5>Wordpress</h5>
+						<h5>برمجة المواقع</h5>
 						{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit deserunt</p> */}
 					</div>
 				</div>
