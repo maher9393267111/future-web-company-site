@@ -14,7 +14,7 @@ export default function Header(props) {
       <link
         rel="shortcut icon"
         type="image/x-icon"
-        href="https://maikon.biz/wp-content/uploads/2020/06/MAIKON.BIZ-favicon-70px.png"
+        href="images/logo/ORGINAL1.png"
       ></link>
 
       <title>{props.title || ' web-Future'}</title>
