@@ -267,5 +267,27 @@ footer ul.social li a i {
     border-top: 1px solid #23375b;
     color:white;
 }
+
+
+form input {
+    border: 1px solid #f5f5f5;
+    background: #f5f5f5;
+    padding: 14px 20px;
+    width: 100%;
+    color: #aaa;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+form textarea {
+    border: 1px solid #f5f5f5;
+    background: #f5f5f5;
+    padding: 14px 20px;
+    width: 100%;
+    color: #aaa;
+    border-radius: 5px;
+    text-align: left;
+}
     
   }

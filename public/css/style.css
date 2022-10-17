@@ -621,7 +621,7 @@ height: auto;
 }
 
 /* form */
-form input {
+/* form input {
     border: 1px solid #f5f5f5;
     background: #f5f5f5;
     padding: 14px 20px;
@@ -629,8 +629,8 @@ form input {
     color: #aaa;
     border-radius: 5px;
     text-align: left;
-}
-
+} */
+/* 
 form textarea {
     border: 1px solid #f5f5f5;
     background: #f5f5f5;
@@ -639,7 +639,7 @@ form textarea {
     color: #aaa;
     border-radius: 5px;
     text-align: left;
-}
+} */
 
 /* footer bottom */
 .footer-bottom {
