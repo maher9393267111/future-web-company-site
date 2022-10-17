@@ -28,7 +28,7 @@ const Portfolio = () => {
 			</div> */}
 
 			{/* ----------- CARDS MAP ----------- */}
-			<div className="row  overflow-hidden no-gutters filter-container">
+			<div className="row   no-gutters filter-container">
 
 
             {/* ----------- Single Project Cart Start ------ */}

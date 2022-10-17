@@ -10,7 +10,7 @@ const Work = () => {
 				<h3>تساؤلات حول العمل</h3>
 			</div>
 			<div className="row">
-				<div className="col-md-4 col-sm-6 col-xs-12">
+				<div className="col-md-4 here col-sm-12 col-xs-12">
 					<div className="content">
 						<i className="icon ion-ios-chatboxes"></i>
 						{/* <h5>Chat</h5> */}
@@ -22,7 +22,7 @@ const Work = () => {
 						{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, reiciendis?</p> */}
 					</div>
 				</div>
-				<div className="col-md-4 col-sm-6 col-xs-12 align-self-end">
+				<div className="col-md-4 here col-sm-6 col-xs-12 align-self-end">
 					<div className="content">
 						<i className="icon ion-ios-cash"></i>
 
@@ -34,7 +34,7 @@ const Work = () => {
 						{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, reiciendis?</p> */}
 					</div>
 				</div>
-				<div className="col-md-4 col-sm-6 col-xs-12">
+				<div className="col-md-4 here col-sm-6 col-xs-12">
 					<div className="content">
 						<i className="icon ion-ios-search"></i>
 						<h5>هل سيساعدني الموقع الالكتروني في الترويج لشركتي؟</h5>

@@ -2,14 +2,14 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            	<footer>
-		<div className="container">
-			<div className="row">
+        <div className=' div-footer  '>
+            	<footer className='footer-class'>
+		<div className="container container-class">
+			<div className="row row-classs">
 				<div className="col-md-3 col-sm-6 col-xs-12">
 					<div className="content">
 						<div className="brand"><img className='brand-image' src="images/logo/ORGINAL1.png" alt=""/></div>
-						<p className=' footer-text'> ” تسويق الكتروني وخدمات في مجال تكنولوجيا المعلومات والانترنت جاءت لتكون إضافة إبداعية في العالم الرقمي.</p>
+						{/* <p className=' footer-text'> ” تسويق الكتروني وخدمات في مجال تكنولوجيا المعلومات والانترنت جاءت لتكون إضافة إبداعية في العالم الرقمي.</p> */}
 					</div>
 				</div>
 				<div className="col-md-3 col-sm-6 col-xs-12">

@@ -4,9 +4,10 @@
     font-size:27px;
 }
 
-.footer-text:hover {
+.footer-text {
     transition: all 1s ;
     color: aliceblue;
+    font-weight: bold;
 
 }
 
@@ -33,3 +34,238 @@
     
     }
     
+
+    
+@media (max-width: 655px) {
+    .project-img {
+      object-fit: contain;
+    }
+  }
+
+
+  @media (min-width:300px) {
+    .process-work .content {
+        text-align: center;
+        padding: 15px;
+        background: #f8f8fc;
+        border-radius: 15px;
+        transition: all .3s ease;
+    }
+    
+    .process-work .content:hover {
+        background: #415678;
+        transition: all .3s ease;
+    }
+    
+    .process-work .content:hover i {
+        color: #fff;
+    }
+    
+    .process-work .content:hover h5 {
+        color: #fff;
+    }
+    
+    .process-work .content:hover p {
+        color: #fff;
+    }
+    
+    .process-work .content i {
+        font-size: 60px;
+        color: #415678;
+    }
+    
+    .process-work .content h5 {
+        margin-bottom: 10px;
+    }
+  }
+
+
+  @media (min-width :300px) {
+
+    .portfolio .content-image {
+        position: relative;
+        margin: auto;
+    }
+    
+    .portfolio .content-image img {
+        width: 100%;
+        border-radius: 15px;
+        transition: all .3s ease;
+    }
+    
+    .portfolio .content-image .image-caption {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        opacity: 0;
+        transition: all .5s ease;
+        color: #fff;
+        transform: scale(0.9);
+    }
+    
+    .portfolio .content-image .image-caption h4 {
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    
+    .portfolio .content-image .image-caption span {
+        font-size: 15px;
+    }
+    
+    .portfolio .content-image .image-overlay {
+        background: #020312;
+        opacity: 0.5;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 15px;
+        opacity: 0;
+        transition: all .5s ease;
+        margin: auto;
+    }
+    
+    .portfolio .content-image:hover .image-caption {
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    .portfolio .content-image:hover .image-overlay {
+        opacity: 0.7;
+        transform: scale(1.07);
+    }
+    
+    .portfolio .content-image:hover img {
+        transform: scale(1.05);
+        box-shadow: 0 0 37px -8px rgba(0, 0, 0, 0.53);
+    }
+    
+    
+  }
+
+
+  @media (min-width:300px) {
+    /* services */
+.services .content {
+    text-align: center;
+    padding: 15px;
+    background: #f8f8fc;
+    border-radius: 15px;
+    transition: all .3s ease;
+}
+
+.services .content:hover {
+    background: #415678;
+    transition: all .3s ease;
+}
+
+.services .content:hover i {
+    color: #fff;
+}
+
+.services .content:hover h5 {
+    color: #fff;
+}
+
+.services .content:hover p {
+    color: #fff;
+}
+
+.services .content .serv-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.services .content i {
+    font-size: 60px;
+    color: #415678;
+}
+
+.services .content .clone-icon i {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.services .content h5 {
+    margin-bottom: 10px;
+}
+
+.services .content:hover .clone-icon i {
+    position: absolute;
+    top: 7px;
+    left: -12px;
+    right: 0;
+    opacity: 0.4;
+}
+    
+  }
+
+
+
+  @media (min-width:333px) {
+
+    /* footer */
+footer {
+    background: #141851;
+    padding: 90px 0 80px;
+}
+
+footer .brand {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer .brand img {
+    width: 55px !important;
+}
+
+.brand-image {
+    width: 55px !important;
+}
+
+
+
+footer h5 {
+    color: #fff !important;
+    margin-bottom: 15px;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer ul li a {
+    color: #717e96;
+}
+
+footer ul li a i {
+    margin-right: 10px;
+}
+
+footer ul.social li a i {
+    width: 20px;
+}
+
+
+
+.footer-bottom {
+    background: #141851;
+    text-align: center;
+    padding: 35px 0 35px;
+    border-top: 1px solid #23375b;
+    color:white;
+}
+    
+  }
